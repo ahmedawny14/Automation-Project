@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testCases.loginTest">
+        <methods>
+          <include name="loginTestCase"/>
+          <include name="checkForgotPasswordLink"/>
+          <include name="checkLinkedinLogin"/>
+          <include name="checkSininLink"/>
+          <include name="checkFacebookLogin"/>
+          <include name="checkLogo"/>
+          <include name="checkGmailLogin"/>
+          <include name="checktitle"/>
+          <include name="checkurl"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.loginTest -->
+      <class name="testCases.ReactAndNodejsCourseTest">
+        <methods>
+          <include name="MyDashboardLink"/>
+          <include name="CheckTitle"/>
+          <include name="MyAccountLink"/>
+          <include name="MyDashboard"/>
+          <include name="CheckUrl"/>
+          <include name="beforemethod"/>
+          <include name="ShowChapter2Content"/>
+          <include name="ShowChapter6Content"/>
+          <include name="checkLogo"/>
+          <include name="ShowChapter3Content"/>
+          <include name="ShowChapter5Content"/>
+          <include name="ShowChapter4Content"/>
+          <include name="SupportLink"/>
+          <include name="ShowChapter1Content"/>
+          <include name="GetStarted"/>
+          <include name="SignOut"/>
+        </methods>
+      </class> <!-- testCases.ReactAndNodejsCourseTest -->
+      <class name="testCases.homepageTest">
+        <methods>
+          <include name="ReactAndNodejsCourse"/>
+          <include name="SeleniumJavaCourse"/>
+          <include name="before"/>
+          <include name="JavaSdkCourse"/>
+          <include name="checktitle"/>
+          <include name="nextPageSign"/>
+          <include name="Gotopage1"/>
+          <include name="searchMultipleItems"/>
+          <include name="Gotopage3"/>
+          <include name="Gotopage2"/>
+          <include name="NodejsAndCypressCourse"/>
+          <include name="previousPageSign"/>
+          <include name="SigninLink"/>
+          <include name="checkAllCourseslink"/>
+          <include name="checkurl"/>
+          <include name="searchForSpecificItem"/>
+          <include name="checklogo"/>
+        </methods>
+      </class> <!-- testCases.homepageTest -->
+      <class name="testCases.register">
+        <methods>
+          <include name="check_terms_of_use_Link"/>
+          <include name="beforeMethod"/>
+          <include name="EmptyFirstName"/>
+          <include name="checkUrl"/>
+          <include name="EmptyLastName"/>
+          <include name="signUpWithFacbook"/>
+          <include name="TakenEmail"/>
+          <include name="register_With_ValidData"/>
+          <include name="check_I_already_have_account_Link"/>
+          <include name="clickOnLogo"/>
+          <include name="InvalidEmail"/>
+          <include name="Invalidpassword"/>
+          <include name="Emptypassword"/>
+          <include name="check_CustomerPrivacyPolicy_Link"/>
+          <include name="signUpWithGmail"/>
+          <include name="signUpWithLinkedin"/>
+          <include name="checkTitle"/>
+          <include name="check_Signin_Link"/>
+          <include name="EmptyEmail"/>
+        </methods>
+      </class> <!-- testCases.register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

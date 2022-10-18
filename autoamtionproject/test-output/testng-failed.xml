@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="testCases.homepageTest">
+        <methods>
+          <include name="ReactAndNodejsCourse"/>
+          <include name="SeleniumJavaCourse"/>
+          <include name="before"/>
+          <include name="JavaSdkCourse"/>
+          <include name="afterMethod"/>
+          <include name="nextPageSign"/>
+          <include name="Gotopage1"/>
+          <include name="searchMultipleItems"/>
+          <include name="Gotopage3"/>
+          <include name="Gotopage2"/>
+          <include name="NodejsAndCypressCourse"/>
+          <include name="previousPageSign"/>
+          <include name="SigninLink"/>
+          <include name="checkAllCourseslink"/>
+          <include name="searchForSpecificItem"/>
+        </methods>
+      </class> <!-- testCases.homepageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="3" failed="0" skipped="13">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T12:43:50Z" name="Default suite" finished-at="2022-10-18T12:44:13Z" duration-ms="23127">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T12:43:50Z" name="Default test" finished-at="2022-10-18T12:44:13Z" duration-ms="23127">
+      <class name="testCases.homepageTest">
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:43:50Z" name="before" finished-at="2022-10-18T14:43:58Z" duration-ms="8000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.homepageTest.checklogo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checklogo()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:43:58Z" name="checklogo" finished-at="2022-10-18T14:43:59Z" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:43:59Z" name="afterMethod" finished-at="2022-10-18T14:44:00Z" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checklogo status=SUCCESS method=homepageTest.checklogo()[pri:0, instance:testCases.homepageTest@470a696f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:00Z" name="before" finished-at="2022-10-18T14:44:04Z" duration-ms="4624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.homepageTest.checktitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checktitle()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:04Z" name="checktitle" finished-at="2022-10-18T14:44:04Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:04Z" name="afterMethod" finished-at="2022-10-18T14:44:04Z" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checktitle status=SUCCESS method=homepageTest.checktitle()[pri:0, instance:testCases.homepageTest@470a696f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:04Z" name="before" finished-at="2022-10-18T14:44:09Z" duration-ms="4669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.homepageTest.checkurl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkurl()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:09Z" name="checkurl" finished-at="2022-10-18T14:44:09Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkurl -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:09Z" name="afterMethod" finished-at="2022-10-18T14:44:09Z" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkurl status=SUCCESS method=homepageTest.checkurl()[pri:0, instance:testCases.homepageTest@470a696f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:09Z" name="before" finished-at="2022-10-18T14:44:09Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.homepageTest.SigninLink()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'DESKTOP-6O8T6P5', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ade3d5f3a9c92a0b7616d466a2c1e15f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'DESKTOP-6O8T6P5', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ade3d5f3a9c92a0b7616d466a2c1e15f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at testCases.homepageTest.before(homepageTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="SigninLink()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="SigninLink" finished-at="2022-10-18T14:44:13Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkAllCourseslink()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="checkAllCourseslink" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllCourseslink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="ReactAndNodejsCourse()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="ReactAndNodejsCourse" finished-at="2022-10-18T14:44:13Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReactAndNodejsCourse -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="NodejsAndCypressCourse()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="NodejsAndCypressCourse" finished-at="2022-10-18T14:44:13Z" duration-ms="5" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NodejsAndCypressCourse -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="SeleniumJavaCourse()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="SeleniumJavaCourse" finished-at="2022-10-18T14:44:13Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumJavaCourse -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="JavaSdkCourse()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="JavaSdkCourse" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaSdkCourse -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="previousPageSign()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="previousPageSign" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousPageSign -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="nextPageSign()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="nextPageSign" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextPageSign -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Gotopage1()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="Gotopage1" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gotopage1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Gotopage2()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="Gotopage2" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gotopage2 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Gotopage3()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="Gotopage3" finished-at="2022-10-18T14:44:13Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gotopage3 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="searchForSpecificItem()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="searchForSpecificItem" finished-at="2022-10-18T14:44:13Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForSpecificItem -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="before(java.lang.reflect.Method)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="before" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="searchMultipleItems()[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="searchMultipleItems" finished-at="2022-10-18T14:44:13Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMultipleItems -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.homepageTest@470a696f]" started-at="2022-10-18T14:44:13Z" name="afterMethod" finished-at="2022-10-18T14:44:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.homepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

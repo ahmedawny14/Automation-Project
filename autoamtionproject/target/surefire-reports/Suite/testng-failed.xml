@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testCases.register">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="register_With_ValidData"/>
+          <include name="EmptyEmail"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testCases.register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 382.156 s <<< FAILURE! - in TestSuite
+register_With_ValidData(testCases.register)  Time elapsed: 21.101 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://courses.ultimateqa.com/collections". Current url: "https://courses.ultimateqa.com/users" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DESKTOP-6O8T6P5', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\BMT\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b49a4ddee366de795dccdec03a3ef07
+	at testCases.register.register_With_ValidData(register.java:144)
+
+EmptyEmail(testCases.register)  Time elapsed: 20.83 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="notice"]/ul/li (tried for 20 second(s) with 500 milliseconds interval)
+	at testCases.register.EmptyEmail(register.java:202)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //*[@id="notice"]/ul/li
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DESKTOP-6O8T6P5', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: driver.version: unknown
+	at testCases.register.EmptyEmail(register.java:202)
+
